@@ -280,6 +280,9 @@
 		EEE445E218FF7007008A6336 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE445E118FF7007008A6336 /* libwebsockets.a */; };
 		EEE445E818FF7007008A6336 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE445E718FF7007008A6336 /* AppDelegate.cpp */; };
 		EEE445EB18FF7007008A6336 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE445EA18FF7007008A6336 /* HelloWorldScene.cpp */; };
+		EEE445F218FF7059008A6336 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE445F118FF7059008A6336 /* Player.png */; };
+		EEE445F418FF7358008A6336 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE445F318FF7358008A6336 /* Target.png */; };
+		EEE445F618FF7570008A6336 /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE445F518FF7570008A6336 /* Projectile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -873,6 +876,9 @@
 		EEE445E718FF7007008A6336 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		EEE445E918FF7007008A6336 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		EEE445EA18FF7007008A6336 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		EEE445F118FF7059008A6336 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		EEE445F318FF7358008A6336 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
+		EEE445F518FF7570008A6336 /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Projectile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +950,9 @@
 		EEE4425518FF6FFE008A6336 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EEE445F518FF7570008A6336 /* Projectile.png */,
+				EEE445F318FF7358008A6336 /* Target.png */,
+				EEE445F118FF7059008A6336 /* Player.png */,
 				EEE4425618FF6FFE008A6336 /* CloseNormal.png */,
 				EEE4425818FF6FFE008A6336 /* CloseSelected.png */,
 				EEE4425A18FF6FFE008A6336 /* Default.png */,
@@ -2153,6 +2162,9 @@
 			files = (
 				EEE4426718FF6FFE008A6336 /* Icon.png in Resources */,
 				EEE4430A18FF7000008A6336 /* ChangeLog in Resources */,
+				EEE445F618FF7570008A6336 /* Projectile.png in Resources */,
+				EEE445F418FF7358008A6336 /* Target.png in Resources */,
+				EEE445F218FF7059008A6336 /* Player.png in Resources */,
 				EEE4425718FF6FFE008A6336 /* CloseNormal.png in Resources */,
 				EEE4426318FF6FFE008A6336 /* Icon-Small.png in Resources */,
 				EEE4425F18FF6FFE008A6336 /* Icon-72.png in Resources */,
