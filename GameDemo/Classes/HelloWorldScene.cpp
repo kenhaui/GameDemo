@@ -59,7 +59,11 @@ bool HelloWorld::init()
     }
 
 
-    //Add menu Close item
+    /////////////////////////////
+    // 2. add a menu item with "X" image, which is clicked to quit the program
+    //    you may modify it.
+
+    // add a "close" icon to exit the progress. it's an autorelease object
     CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
                                         "CloseNormal.png",
                                         "CloseSelected.png",
