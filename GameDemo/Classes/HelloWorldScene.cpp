@@ -28,7 +28,7 @@ bool HelloWorld::init()
         return false;
     }
     
-    
+    //GitHub
     _targets = new CCArray();
     _projectile = new CCArray();
     
