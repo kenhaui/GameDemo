@@ -28,7 +28,7 @@ bool HelloWorld::init()
         return false;
     }
     
-    
+    //Hello
     _targets = new CCArray();
     _projectile = new CCArray();
     
